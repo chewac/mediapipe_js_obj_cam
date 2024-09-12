@@ -137,12 +137,6 @@ async function enableCam(event) {
     // getUsermedia parameters
     const constraints = {
         video:true
-            {
-            
-            facingMode: {
-      exact: 'environment'
-    }
-        }
     };
     // Activate the webcam stream.
     navigator.mediaDevices
