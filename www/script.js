@@ -136,7 +136,12 @@ async function enableCam(event) {
     enableWebcamButton.classList.add("removed");
     // getUsermedia parameters
     const constraints = {
-        video: true
+        video: {
+            true
+            facingMode: {
+      exact: 'environment'
+    }
+        }
     };
     // Activate the webcam stream.
     navigator.mediaDevices
