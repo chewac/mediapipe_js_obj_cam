@@ -151,7 +151,7 @@ async function enableCam(event) {
       exact: 'environment'
     }
   }
-}
+
         
     };
     // Activate the webcam stream.
